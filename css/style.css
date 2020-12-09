@@ -2034,7 +2034,7 @@ ul, ol {
 		bottom: 80px;
 	}
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 776px) {
 	.top-nav {
 		display: none;
 	}
