@@ -268,7 +268,16 @@ ul, ol {
 	background-color: #2177AA;
 	margin-bottom: 1px;
 }
+.title{
+	font-size: 50px;
+	color: #fff;
+}
 
+.sub-title{
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+}
 .dropdown-submenu {
 	position: relative;
   }
@@ -670,7 +679,7 @@ ul, ol {
 
 .about-text {
 	text-align: center;
-	padding: 0 35px;
+	/* padding: 0 35px; */
 }
 .about-text p {
 	color: #595960;
@@ -902,32 +911,38 @@ ul, ol {
 	color: #aaaab3;
 	margin-bottom: 20px;
 }
-.fa {
-	padding: 10px;
-	font-size: 30px;
-	width: 30px;
+.fa-social{
+	display: flex;
+	margin-bottom: 30px;
+}
+.facebook,
+.twitter,.instagram {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	line-height: 40px;
 	text-align: center;
-	text-decoration: none;
-	margin: 5px 2px;
-	border-radius: 50%;
-  }
-  
-  .fa:hover {
-	  opacity: 0.7;
-  }
-  
-  .fa-facebook {
+	margin-right: 8px;
+}
+  .facebook {
 	background: #3B5998;
 	color: white;
   }
   
-  .fa-twitter {
+  .twitter {
 	background: #55ACEE;
 	color: white;
   }
-  .fa-instagram {
+  .instagram {
 	background: #125688;
 	color: white;
+  }
+
+  .ft-contact a{
+	  color: #aaaab3;
   }
   
 .footer-section .footer-text .ft-about  a {
@@ -2034,6 +2049,23 @@ ul, ol {
 		bottom: 80px;
 	}
 }
+
+@media only screen and (max-width: 990px) {
+	.logo-description .navbar-toggler{
+		padding: 0;
+		border: 0;
+	}
+	.logo-description .navbar-toggler .fa{
+		width: auto;
+		padding: 0;
+	}
+	.title {
+		font-size: 38px;
+	}
+	.logo-description {
+		width: 100%;
+	}
+}
 @media only screen and (max-width: 776px) {
 	.top-nav {
 		display: none;
@@ -2373,6 +2405,19 @@ ul, ol {
 	}
 	.hp-room-item {
 		margin-bottom: 10px;
+	}
+	.title{
+		font-size: 17px;
+		margin-bottom: 0px;
+	}
+	
+	.sub-title{
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+	.logo img,
+	.logo-2 img{
+		height: 70px;
 	}
 }
 /* Small Mobile: 320px */
