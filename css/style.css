@@ -530,7 +530,15 @@ ul, ol {
 /*---------------------
   Hero
 -----------------------*/
+.MsoNormal a:hover{
+	color: gray;
+}
 
+.MsoNormal{
+	margin-bottom: 0;
+	margin-top: auto;
+	padding: 05px;
+}
 .hero-section {
 	position: relative;
 	padding-top: 60px;
@@ -1944,7 +1952,7 @@ ul, ol {
 .contact-text table tbody tr td {
 	font-size: 16px;
 	color: #19191a;
-	line-height: 36px;
+	line-height: 30px;
 	font-weight: 500;
 }
 .contact-text table tbody tr td.c-o {
